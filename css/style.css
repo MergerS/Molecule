@@ -508,6 +508,7 @@ template {
   padding: 10px 14px;
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
 
 .marketing__input--crumb {
@@ -623,6 +624,7 @@ template {
 
 .features {
   padding-top: 128px;
+  padding-bottom: 120px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -763,4 +765,214 @@ template {
   line-height: 21px;
   color: #1E313B;
   padding-left: 45px;
+}
+
+.stats {
+  background: #F6F6F6;
+}
+
+.stats__item {
+  padding-top: 128px;
+  padding-bottom: 127px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stats__titles {
+  width: 600px;
+}
+
+.stats__title {
+  margin: 0;
+  width: 91px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E313B;
+  text-align: center;
+  border: 2px solid #97E747;
+  background: rgba(151, 231, 71, 0.6);
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.stats__text {
+  width: 564px;
+}
+
+.stats__text--dark {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  color: #1E313B;
+}
+
+.stats__text--green {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  color: #97E747;
+  padding-left: 20px;
+}
+
+.stats__stat {
+  width: 575px;
+}
+
+.stats__stat--text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1E313B;
+  padding-bottom: 30px;
+}
+
+.stats__number {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stats__number--item {
+  height: 124px;
+  padding-right: 25px;
+}
+
+.stats__number--id {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #97E747;
+}
+
+.stats__number--text {
+  width: 197px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E313B;
+}
+
+.team-wrapper {
+  padding-bottom: 127px;
+  padding-top: 128px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team__titles {
+  padding-right: 80px;
+  padding-top: 143px;
+}
+
+.team__title {
+  margin: 0;
+  width: 93px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: rgba(121, 78, 255, 0.8);
+  border: 2px solid #794EFF;
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.team__text {
+  width: 445px;
+  padding-bottom: 20px;
+}
+
+.team__text--dark {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: #1E313B;
+}
+
+.team__text--purple {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  color: #794EFF;
+}
+
+.team__lorem {
+  width: 550px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1E313B;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.team__btn {
+  background: #794EFF;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 15px;
+}
+
+.team__photo {
+  height: 592px;
+  width: 600px;
+  position: relative;
+}
+
+.team__photo--image {
+  position: absolute;
+  width: 288px;
+  height: 288px;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  left: 0;
+  top: 303px;
+}
+
+.team__photo--image2 {
+  position: absolute;
+  width: 288px;
+  height: 288px;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  right: 0;
+  top: 151px;
+}
+
+.team__photo--image3 {
+  position: absolute;
+  width: 288px;
+  height: 288px;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  left: 0;
+  top: 0;
 }
