@@ -286,11 +286,11 @@
       font-size: 16px
       line-height: 24px
       color: $dark
-.team-wrapper
-  padding-bottom: 127px
-  padding-top: 128px
-  display: flex
 .team
+  &__wrapper
+    padding-bottom: 127px
+    padding-top: 128px
+    display: flex
   &__titles
     padding-right: 80px
     padding-top: 143px
@@ -367,3 +367,452 @@
       border-radius: 16px
       left: 0
       top: 0
+.molecule
+  background-color: $dark
+  display: flex
+  &__info
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 128px 0
+    width: 758px
+    &--title
+      margin: 0
+      padding: 20px 0
+      font-style: normal
+      font-weight: 400
+      font-size: 32px
+      line-height: 35px
+      color: $white
+    &--text
+      margin: 0
+      text-align: center
+      font-style: normal
+      font-weight: 400
+      font-size: 18px
+      line-height: 27px
+      color: $white
+    &--btn
+      padding-top: 30px
+  &__btn
+    &--left
+      text-decoration: none
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 24px
+      color: $white
+      background: $purple
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05)
+      border-radius: 6px
+      padding: 9px 15px
+    &--right
+      text-decoration: none
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 24px
+      color: $dark
+      background: $white
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05)
+      border-radius: 6px
+      padding: 9px 15px
+      margin-left: 15px
+.process
+  &__wrapper
+    padding: 128px 0
+    display: flex
+  &__left
+    width: 600px
+    padding: 125px 0
+  &__right
+    padding-left: 80px
+  &__title
+    margin: 0
+    width: 112px
+    text-align: center
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $dark
+    background: rgba(255, 193, 71, 0.6)
+    border: 2px solid $yellow
+    border-radius: 100px
+  &__text
+    padding-top: 30px
+    padding-bottom: 50px
+    margin: 0
+    font-style: normal
+    font-weight: 700
+    font-size: 32px
+    line-height: 35px
+    color: $dark
+  &__btn
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $white
+    text-align: center
+    text-decoration: none
+    background: $dark
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05)
+    border-radius: 6px
+    padding: 15px 9px
+  &__step
+    display: flex
+    width: 600px
+.step
+  &__img
+    height: 63px
+    width: 62px
+    background-color: $yellow
+    margin-right: 40px
+    margin-top: 24px
+    margin-bottom: 82px
+  &__logo
+    height: 24px
+    width: 24px
+    margin: 20px 19px
+  &__title
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 24px
+    color: $dark
+    padding-bottom: 12px
+    padding-top: 37px
+  &__text
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $dark
+.slider
+  background: #F6F6F6
+  &__button
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    z-index: 99
+    width: 56px
+    height: 56px
+    border: none
+    background-color: transparent
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 15px
+    cursor: pointer
+    &--prev
+      left: 0
+      background-image: url(../img/arrow-left.svg)
+    &--next
+      right: 0
+      background-image: url(../img/arrow-right.svg)
+  &__pagination
+    text-align: center
+    padding-top: 35px
+    width: 8px
+    height: 8px
+.swiper
+  display: flex
+  flex-direction: column
+  text-align: center
+  padding: 128px 0
+.slide
+  width: 768px
+  margin: auto
+  &__logo
+    padding-bottom: 35px
+  &__text
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 24px
+    line-height: 34px
+    color: $dark
+    padding-bottom: 28px
+  &__photo
+    width: 80px
+    height: 80px
+  &__author
+    padding: 15px 0
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $dark
+  &__crumb
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $dark
+.missout
+  background-color: $purple
+  &__items
+    padding: 64px 0
+  &__item
+    border-radius: 64px
+    background: $white
+    display: flex
+    padding: 96px 0
+  &__texts
+    width: 620px
+    padding-left: 96px
+  &__title
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 32px
+    line-height: 35px
+    color: $dark
+    padding-bottom: 10px
+  &__text
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $dark
+  &__info
+    padding-left: 80px
+  &__input
+    border: 1px solid #000000
+    border-radius: 6px
+    padding: 12px 21px
+    width: 364px
+  &__input::placeholder
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $dark
+  &__btn
+    margin-left: 12px
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $white
+    text-align: center
+    padding: 10px 15px
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05)
+    border-radius: 6px
+    background: $dark
+    border: none
+  &__crumb
+    padding-top: 15px
+    &--text
+      font-style: normal
+      font-weight: 400
+      font-size: 12px
+      line-height: 18px
+      color: $dark
+    &--link
+      padding-left: 20px
+      text-decoration: none
+      font-style: normal
+      font-weight: 400
+      font-size: 12px
+      line-height: 18px
+      color: $purple
+.blog
+  padding: 127px 0
+  &__titles
+    display: flex
+    justify-content: space-between
+  &__title
+    flex-direction: column
+    &--text
+      margin: 0
+      text-align: center
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 24px
+      color: $white
+      background: rgba(121, 78, 255, 0.8)
+      border: 2px solid $purple
+      border-radius: 100px
+      width: 86px
+  &__text
+    padding-top: 30px
+    padding-bottom: 12px
+    font-style: normal
+    font-weight: 700
+    font-size: 32px
+    line-height: 35px
+    color: $dark
+    &--purple
+      color: $purple
+  &__crumb
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 27px
+    color: $dark
+  &__btn
+    margin-top: 107px
+    height: 42px
+    width: 88px
+    border: none
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $white
+    padding: 10px 15px
+    background: #1E313B
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05)
+    border-radius: 6px
+    cursor: pointer
+  &__cards
+    display: flex
+    padding-top: 32px
+  &__img
+    height: 268px
+    width: 405px
+    border-radius: 16px
+    margin-bottom: 43px
+  &__card
+    width: 405px
+    margin-right: 32px
+    &--title
+      margin: 0
+      font-style: normal
+      font-weight: 400
+      font-size: 24px
+      line-height: 34px
+      color: $dark
+      padding-bottom: 10px
+    &--text
+      margin: 0
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 24px
+      color: $dark
+      padding-bottom: 15px
+  &__authors
+    display: flex
+  &__author
+    flex-direction: column
+    &--photo
+      height: 48px
+      width: 48px
+    &--name
+      display: block
+      text-decoration: none
+      padding-left: 16px
+      font-style: normal
+      font-weight: 400
+      font-size: 14px
+      line-height: 21px
+      color: $dark
+    &--date
+      padding-left: 16px
+      font-style: normal
+      font-weight: 400
+      font-size: 14px
+      line-height: 21px
+      color: $dark
+    &--time
+      padding-left: 10px
+      font-style: normal
+      font-weight: 400
+      font-size: 14px
+      line-height: 21px
+      color: $dark
+.start
+  background-color: $purple
+  &__item
+    padding: 64px 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__text
+    &--title
+      margin: 0
+      font-style: normal
+      font-weight: 400
+      font-size: 56px
+      line-height: 62px
+      color: $white
+      padding-bottom: 20px
+    &--crumb
+      font-style: normal
+      font-weight: 400
+      font-size: 18px
+      line-height: 27px
+      color: $white
+  &__btn
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 27px
+    text-align: center
+    color: $dark
+    border: none
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05)
+    border-radius: 6px
+    padding: 13px 21px
+    cursor: pointer
+.footer
+  &__nav
+    padding-top: 80px
+    padding-bottom: 32px
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__menu
+    list-style: none
+    display: flex
+  &__item
+    padding-right: 24px
+  &__link
+    text-decoration: none
+    text-align: center
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: $purple
+  &__social
+    padding-right: 15px
+  &__webflows
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-bottom: 80px
+  &__webflow
+    &--text
+      font-style: normal
+      font-weight: 400
+      font-size: 14px
+      line-height: 21px
+      color: $dark
+    &--link
+      text-decoration: none
+      font-style: normal
+      font-weight: 400
+      font-size: 14px
+      line-height: 21px
+      color: $purple
+      padding-left: 20px
+.policy
+  list-style: none
+  display: flex
+  &__link
+    text-decoration: none
+    padding-right: 16px
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 21px
+    color: $purple
