@@ -398,6 +398,10 @@ template {
   color: #1E313B;
 }
 
+.navbar__link:hover {
+  color: #794EFF;
+}
+
 .navbar__button {
   text-decoration: none;
   font-style: normal;
